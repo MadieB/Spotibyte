@@ -1,0 +1,54 @@
+body {
+               background-image:radial-gradient(white, #8200DC, #5D009E, #290046,  black);
+    color:black;
+    text-align: center;
+    font-family:monospace;
+    display:block;
+}
+
+header {
+    color:#00FFDC;
+    font-style: italic;
+    font-family:fantasy; 
+    font-style:oblique;
+    font-size: 35px;
+    text-decoration:underline;
+    text-decoration-style:dotted;
+    text-shadow:5px 5px black;
+}
+img{
+    width: 20%;
+    height: 20%;
+}
+h3 {
+    color:#FF00FF;
+    text-decoration:underline;
+    font-family:cursive;
+    text-shadow:2px 1px black;
+}
+
+.song{
+    background-color:#CBA5FF;
+    color:#7C00FF;
+    text-align:left;
+    width: 60%;
+    padding: 10px;
+        border: 5px groove black;
+}
+.big{
+    text-decoration-line: underline;
+}
+
+section {
+    width: 25%;
+    margin: 5px auto;
+}
+
+input {
+    display: block;
+    margin: 5px auto;
+}
+
+.hidden {
+    display: none;
+}

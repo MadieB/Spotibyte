@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Spotibyte</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Spotibyte</h1>
+        </header>
+        
+        <img src = "music.png">
+        <section id="account">
+            <h3>Create Account</h3>
+            <form>
+                <label for="firstName">First Name: </label>
+                <input name="firstName" required>
+                <label for="lastName">Last Name: </label>
+                <input name="lastName" required>
+                <label for="email">Email: </label>
+                <input name="email" required>
+                <label for="password">Password: </label>
+                <input name="password" type="password" required>
+                <input type="submit" onClick="createAccount(event)">
+            </form>
+        </section>
+        <section id = "login">
+            <h3>Login</h3>
+            <form>
+                <label for="email">Email: </label>
+                <input name="email" required>
+                <label for="password">Password: </label>
+                <input name="password" type="password" required>
+                <input type="submit" onClick="login(event)">
+            </form>
+        </section>
+        
+        <section id="addSong">
+            <h3>Add your Favorite Song</h3>
+          <form>
+                <label for="name">Name: </label>
+                <input name="name" required>
+                <label for="artist">Artist: </label>
+                <input name="artist" required>
+                <label for="album">Album</label>
+                <input name="album" required>
+                <label for="length">Length (in minutes (ex 3:00))</label>
+                <input name="length" required>
+                <input type="submit" onClick="addToList(event)">
+            </form>
+            
+        </section>
+        <h3>Song List</h3>
+        <section id ="songs">
+            
+        </section>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
